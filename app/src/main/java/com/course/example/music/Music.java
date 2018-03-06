@@ -17,6 +17,8 @@ import android.widget.Button;
 import android.view.View;
 import android.view.View.OnClickListener;
 
+import java.io.IOException;
+
 
 public class Music extends Activity {
 	
@@ -51,7 +53,7 @@ public class Music extends Activity {
         try {
 			mp.setDataSource("/data/data/bobmarley.mp3");
 	        mp.prepare();     
-	        } catch (Exception e) {
+	        } catch (IOException e) {
 	        	Toast.makeText(Music.this, "Exception", Toast.LENGTH_LONG).show();
 	        };    	
     }
