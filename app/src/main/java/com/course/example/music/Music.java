@@ -50,11 +50,12 @@ public class Music extends Activity {
     public void onStart() {
     	super.onStart();
     	mp = new MediaPlayer();
+		String path = getFilesDir().toString() + "/bobmarley.mp3";
         try {
-			mp.setDataSource("/data/data/bobmarley.mp3");
-	        mp.prepare();     
+			mp.setDataSource(path);
+	        mp.prepare();
 	        } catch (IOException e) {
-	        	Toast.makeText(Music.this, "Exception", Toast.LENGTH_LONG).show();
+	        	Toast.makeText(Music.this, "Exception" + e.getMessage(), Toast.LENGTH_LONG).show();
 	        };    	
     }
     
