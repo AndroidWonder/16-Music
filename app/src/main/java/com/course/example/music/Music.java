@@ -1,7 +1,7 @@
 /*
  * Play music file in memory.
  * Make sure you have a music file in Android memory in the
- * directory data/data/  
+ * directory data/user/0/package name/files/music file
  * Use the emulator File Explorer to load the file.
  * Use API 28. Emulator has regressions at API 27.
  * Place music files in device memory with the Devive File Explorer.
