@@ -3,7 +3,7 @@
  * Make sure you have a music file in Android memory in the
  * directory data/data/  
  * Use the emulator File Explorer to load the file.
- * Use API 23. Emulator has regressions at API 24 and 25.
+ * Use API 28. Emulator has regressions at API 27.
  * Android Device Monitor's File Explorer not working at APIs 24 and 25.
  */
 
