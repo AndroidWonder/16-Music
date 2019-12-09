@@ -4,8 +4,10 @@
  * directory data/user/0/package name/files/music file
  * Use the emulator File Explorer to load the file.
  * Use API 28. Emulator has regressions at API 27.
- * Place music files in device memory with the Devive File Explorer.
+ * Place music files in device memory with the Device File Explorer.
  * View > Tool Windows > Device File Explorer
+ * At API 29 use data/data/package name/files/music file
+ *
  */
 
 package com.course.example.music;
