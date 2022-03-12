@@ -4,7 +4,6 @@
  * directory data/data/package name/files/music file
  * Use the emulator File Explorer to load the file.
  * Place music files in device memory with the Device File Explorer.
- * View > Tool Windows > Device File Explorer
  * Use data/data/package name/files/music file
  *
  */
