@@ -35,16 +35,10 @@ public class Music extends Activity {
         button02 = (Button)findViewById(R.id.Button02);
                          
         button01.setOnClickListener(
-        		new OnClickListener(){
-        				public void onClick(View v){
-        					mp.start();
-        				}});
+                v -> mp.start());
         
         button02.setOnClickListener(
-        		new OnClickListener(){
-        				public void onClick(View v){
-        					mp.pause();
-        				}});
+                v -> mp.pause());
     }
     
     @Override 
@@ -57,7 +51,7 @@ public class Music extends Activity {
 	        mp.prepare();
 	        } catch (IOException e) {
 	        	Toast.makeText(Music.this, "Exception" + e.getMessage(), Toast.LENGTH_LONG).show();
-	        };    	
+	        }
     }
     
     @Override 
